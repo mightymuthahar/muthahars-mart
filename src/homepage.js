@@ -1,6 +1,8 @@
 import './homepage.css';
+import { Navigate, useNavigate } from "react-router-dom";
 
 export const Homepage=()=>{
+    const Navigate=useNavigate()
     return(
      <>
      <div id="parent-1">
@@ -10,7 +12,7 @@ export const Homepage=()=>{
             <form>
                 <input type="text" placeholder=" &nbsp; &nbsp; Search for products,brands and more" id="id4"></input>
             </form>
-            <button type="submit" className="c35" onClick={()=>{window.location.href="/login"}}>Login</button>
+            <button type="submit" className="c35" onClick={()=>{Navigate("/login")}}>Login</button>
             <button type="submit" className="c35" onClick={()=>{window.location.href="/signup"}}>Signup</button>
             <button type="submit" className="c36" onClick={()=>{window.location.href="/login"}}>Products</button>
           
