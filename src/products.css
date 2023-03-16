@@ -1,0 +1,112 @@
+#p1{
+    background-color:#F7A200;
+    width:100vw;
+    height:2000vh;
+    position: relative;
+}
+#p2{
+    height:100px;
+    background-color:white;
+    position: relative;
+    display: flex;
+}
+.cp1{
+    height:100px;
+    width:200px;
+    align-items:center;
+    position: absolute;
+    left:625px;
+    
+}
+
+
+#p3{
+    background-color:white;
+    /* display: flex;
+   flex-wrap: wrap;
+   padding-left: 50px; */
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 300px; */
+    /* margin: auto; */
+    text-align: center;
+    font-family: arial;
+    width:18rem;
+    border-radius: 5px;
+   ;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    /* outline: 0; */
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+   
+
+  }
+.cp2{
+    width:100px;
+    height:27px;
+    font-weight:bolder;
+    margin-top:19px;
+    margin-left:25px;
+    color:white;
+    border:0px solid white;
+    border-radius: 2px;
+    position: absolute;
+    left:1025px;
+    top:20px;
+    background-color:red;
+}
+.cp3{
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:22px;
+    left:885px;
+}
+.cp4{
+    position:absolute;
+    top:24px;
+    left:950px;
+    font-weight: bold;
+}
+.cp5{
+    color:black;
+}
+#p4{
+    /* border:2px solid black; */
+    height:400px;
+    width:800px;
+    margin: 25px;
+    background-color:  #047BD5;
+    
+}
+#p3{
+    /* padding-left:250px; */
+    /* border:2px solid red; */
+    position: absolute;
+    left:280px;
+    background-color: #F7A200;;
+}
+#p5{
+    width:100px;
+    height:35px;
+    border-radius:6px;
+    border:0px solid white;
+    font-weight: bold;
+    background-color: #FF3334;
+    text-align: center;
+}
+
