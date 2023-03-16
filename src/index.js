@@ -14,7 +14,8 @@ import { Productscart } from './totalcart';
 import {
   createBrowserRouter,
   RouterProvider,
-  Navigate
+  Navigate,
+  HashRouter
 } from "react-router-dom";
 
 const token=localStorage.getItem("Ecom_token");
@@ -39,12 +40,14 @@ const router = createBrowserRouter([
   {
     path:"/Productscart",
     element: token ? <Productscart/> : <Navigate to="/login"></Navigate>
+
   }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <HashRouter>
     <ToastContainer
 position="top-center"
 autoClose={5000}
@@ -58,6 +61,7 @@ pauseOnHover
 theme="dark"
 />
    <RouterProvider router={router} />
+   </HashRouter>
   </React.StrictMode>
 );
 
